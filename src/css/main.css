@@ -1,0 +1,207 @@
+/*
+File Name: main.css
+Created on: 08/10/2019
+Created by: Aryan Sahu
+*/
+/*--------------------------------------------------------------------
+Global-Section
+--------------------------------------------------------------------*/
+h1{
+    padding: 0;
+    margin: 0;
+}
+.col-style, .col{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*--------------------------------------------------------------------
+master-grid-section
+--------------------------------------------------------------------*/
+.master-grid-left-col {
+    background-color: red;
+}
+.master-grid-right-col {
+    background-color: yellow;
+}
+.master-grid-col-img {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.master-grid-collared-col {
+    height: 400px;
+}
+
+.left-col1-style {
+    background-image: url('../image/img1.png');
+}
+.left-col2-style {
+    background-color: #ebb240;
+}
+.left-col3-style{
+    background-image: url('../image/img2.png');
+}
+.left-col4-style{
+    background-image: url('../image/img5.png');
+}
+.left-col5-style{
+    background-image: url('../image/img6.png');
+}
+.left-col6-style{
+    background-image: url('../image/img8.png');
+    height: 300px;
+}
+.left-col7-style{
+    background-image: url('../image/img9.png');
+    height: 300px;
+}
+
+.right-col1-style {
+    background-color: #7ACEC3;
+}
+.right-col2-style{
+    background-image: url('../image/img3.png');
+    height: 200px;
+}
+.right-col3-style{
+    background-image: url('../image/img4.png');
+    background-position: top;
+}
+.right-col4-style{
+    background-image: url('../image/img7.png');
+    height: 200px;
+}
+.right-col5-style{
+    background-color: #ebb240;
+    height: 300px;
+}
+/*--------------------------------------------------------------------
+our-team-section
+--------------------------------------------------------------------*/
+.our-team {
+    background-color: #f6f6f6;
+    padding: 2rem;
+}
+.our-team h1{
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+.our-team span, .our-team span p{
+    display: inline-block;
+}
+.team {
+    color: red;
+}
+.about-team-para{
+    color: #767676;
+}
+.member-img{
+    height: auto;
+    width: 100%;
+}
+.member-img-style{
+    padding: 15px;
+}
+.member-collage{
+    max-width: 700px;
+}
+/*--------------------------------------------------------------------
+tanner-collections-section
+--------------------------------------------------------------------*/
+.tanner-collections{
+    background-color: #e9eae2;
+    padding: 2rem;
+}
+
+.tanner-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 650;
+    font-size: 2em;
+    color: #383838;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+hr {
+    background-color: #69500b;
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+}
+.side-box-heading p{
+    color: #69500b;
+    margin: 0;
+    display: inline-block;
+    background-color: #d4cdb8;
+    padding: 0px 120px 2px 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.side-box-heading{
+    float: right;
+    display: block;
+}
+
+.product-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.product-container-style{
+    margin-top: 100px;
+}
+
+.product-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #383838;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.product-heading-style{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    text-shadow: 2px 2px 4px #00000073;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    float: right;
+}
+.product-images{
+    background-color: white;
+}
+.product-details{
+    color: #383838ad;
+}
+.product-img-grid{
+    width: 100%;
+    height: auto;
+}
+
+.product-details-box{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.read-more-link{
+    text-decoration: none;
+    color: #383838;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width: 992px) {
+    .overlap{
+        margin-top: -65px;
+    }
+    #overlapping-index{
+        z-index: 1;
+        position: relative;
+    }
+    #overlapping-style{
+        z-index: 0;
+    }
+}
