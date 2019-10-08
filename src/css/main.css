@@ -37,6 +37,22 @@ master-grid-section
 .left-col1-style {
     background-image: url('../image/img1.png');
 }
+.logo{
+    width: 150px;
+    height: auto;
+}
+.social-icon{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.center-style{
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    transform: translate(0, -50%);
+}
+
 .left-col2-style {
     background-color: #ebb240;
 }
